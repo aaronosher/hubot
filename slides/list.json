@@ -9,5 +9,15 @@
     [
         "getting-started/what.md",
         "getting-started/why.md"
+    ],
+    [
+        "getting-started/what-do-i-need.md"
+    ],
+    [
+        "getting-started/install-node.md",
+        "getting-started/install-node/mac.md",
+        "getting-started/install-node/windows.md",
+        "getting-started/install-node/debian.md",
+        "getting-started/install-node/linux.md"
     ]
 ]
