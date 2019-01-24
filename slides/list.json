@@ -23,5 +23,9 @@
         "getting-started/install-node/windows.md",
         "getting-started/install-node/debian.md",
         "getting-started/install-node/linux.md"
+    ],
+    [
+        "getting-started/install-hubot.md",
+        "getting-started/install-hubot/yeoman-generator.md"
     ]
 ]
