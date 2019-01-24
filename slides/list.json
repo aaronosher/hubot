@@ -5,5 +5,9 @@
         "attr": {
             "data-background": "img/hubot_bg.png"
         }
-    }
+    },
+    [
+        "getting-started/what.md",
+        "getting-started/why.md"
+    ]
 ]
