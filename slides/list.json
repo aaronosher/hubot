@@ -1,7 +1,11 @@
 [
-    "index.md",
+    [
+        "welcome/index.md",
+        "welcome/about-me.md",
+        "welcome/slides.md"
+    ],
     {
-        "filename": "hello-hubot.md",
+        "filename": "welcome/hello-hubot.md",
         "attr": {
             "data-background": "img/hubot_bg.png"
         }
