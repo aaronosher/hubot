@@ -1,9 +1,31 @@
 [
-    "index.md",
+    [
+        "welcome/index.md",
+        "welcome/about-me.md",
+        "welcome/slides.md"
+    ],
     {
-        "filename": "hello-hubot.md",
+        "filename": "welcome/hello-hubot.md",
         "attr": {
             "data-background": "img/hubot_bg.png"
         }
-    }
+    },
+    [
+        "getting-started/what.md",
+        "getting-started/why.md"
+    ],
+    [
+        "getting-started/what-do-i-need.md"
+    ],
+    [
+        "getting-started/install-node.md",
+        "getting-started/install-node/mac.md",
+        "getting-started/install-node/windows.md",
+        "getting-started/install-node/debian.md",
+        "getting-started/install-node/linux.md"
+    ],
+    [
+        "getting-started/install-hubot.md",
+        "getting-started/install-hubot/yeoman-generator.md"
+    ]
 ]
