@@ -122,6 +122,7 @@ module.exports = (grunt) ->
                         slide:
                             slide
             grunt.file.write 'index.html', html
+            grunt.file.write '404.html', html
 
     grunt.registerTask 'test',
         '*Lint* javascript and coffee files.', [
