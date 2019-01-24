@@ -1,7 +1,7 @@
 [
     "index.md",
     {
-        "filename": "hello-hubot.html",
+        "filename": "hello-hubot.md",
         "attr": {
             "data-background": "img/hubot_bg.png"
         }
