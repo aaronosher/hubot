@@ -93,7 +93,11 @@
             transition: 'slide', // none/fade/slide/convex/concave/zoom
 
             keyboard: {
-                191: () => Reveal.configure({ history: false, slideNumber: false, controls: false, controlsTutorial: false })
+                191: () => {
+                    if (!/\/bower_components\/reveal.js\/plugin\/notes\/notes\.html/.test(window.parent.location.pathname)) {
+                        Reveal.configure({ history: false, slideNumber: false, controls: false, controlsTutorial: false })
+                    }
+                }
             },
 
             // Optional reveal.js plugins
