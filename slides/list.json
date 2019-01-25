@@ -25,6 +25,7 @@
     ],
     [
         "getting-started/install-hubot.md",
-        "getting-started/install-hubot/yeoman-generator.md"
+        "getting-started/install-hubot/yeoman-generator.md",
+        "getting-started/install-hubot/make-folder.md"
     ]
 ]
