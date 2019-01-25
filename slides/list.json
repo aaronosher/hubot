@@ -5,7 +5,6 @@
         "welcome/slides.md"
     ],
     {
-        "filename": "welcome/hello-hubot.md",
         "attr": {
             "data-background": "img/hubot_bg.png"
         }
