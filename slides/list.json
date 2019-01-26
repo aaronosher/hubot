@@ -49,5 +49,6 @@
         "features/scripts/npm.md",
         "features/scripts/custom.md"
     ],
+    "docs.md",
     "hands-on.md"
 ]
