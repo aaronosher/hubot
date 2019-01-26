@@ -1,6 +1,6 @@
 ## Yeoman Generator
 
-`npm install -g yo generator-hubot`
+`$ npm install -g yo generator-hubot`
 
 note:
 * `yo` is the CLI for Yeoman Generator
