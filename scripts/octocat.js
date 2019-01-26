@@ -24,14 +24,14 @@ const randomInt = (array) => {
 }
 
 module.exports = robot => {
-  robot.respond(/octocat/i, res => {
+  /* Make Hubot listen for a command */res => {
     // Call octodex JSON file
     rp(api)
       // parse JSON response
       .then(raw => JSON.parse(raw))
       // Send random octocat to user
-      .then(octocats => res.send(octocats[randomInt(octocats)].url))
+      .then(octocats => /* make hubot respond here */) //octocats[randomInt(octocats)].url
       // Catch any errors and tell the user
-      .catch(err => res.send(err.message));
+      .catch(err => console.error(err.message));
   });
 };
