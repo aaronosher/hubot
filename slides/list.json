@@ -32,5 +32,23 @@
         "getting-started/install-hubot/yo-hubot-2.md",
         "getting-started/install-hubot/yo-hubot-3.md",
         "getting-started/install-hubot/bin-hubot.md"
-    ]
+    ],
+    [
+        "features/adapters.md",
+        "features/adapters/what-is.md",
+        "features/adapters/parse.md"
+    ],
+    [
+        "features/apis.md",
+        "features/apis/robot.md",
+        "features/apis/hear.md",
+        "features/apis/respond.md"
+    ],
+    [
+        "features/scripts.md",
+        "features/scripts/npm.md",
+        "features/scripts/custom.md"
+    ],
+    "docs.md",
+    "hands-on.md"
 ]
