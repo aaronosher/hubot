@@ -16,6 +16,7 @@
     "hubot-scripts": "^2.17.2",
     "hubot-shell": "^1.0.2",
     "hubot-shipit": "^0.2.1",
+    "mlh-events-scraper": "^1.1.0",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.5"
   },
