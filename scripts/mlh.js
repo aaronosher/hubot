@@ -26,8 +26,8 @@ const getUpcomingEvents = (region, count) => {
       return now < epoch;
     }))
     .then(events => events.sort((a, b) => {
-      aDate = new Date(a.start);
-      bDate = new Date(b.start);
+      const aDate = new Date(a.start);
+      const bDate = new Date(b.start);
       return aDate.valueOf() - bDate.valueOf();
     }))
     .then(events => events.slice(0, count));
