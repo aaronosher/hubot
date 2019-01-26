@@ -26,6 +26,11 @@
     [
         "getting-started/install-hubot.md",
         "getting-started/install-hubot/yeoman-generator.md",
-        "getting-started/install-hubot/make-folder.md"
+        "getting-started/install-hubot/make-folder.md",
+        "getting-started/install-hubot/initalise-hubot.md",
+        "getting-started/install-hubot/yo-hubot-1.md",
+        "getting-started/install-hubot/yo-hubot-2.md",
+        "getting-started/install-hubot/yo-hubot-3.md",
+        "getting-started/install-hubot/bin-hubot.md"
     ]
 ]
