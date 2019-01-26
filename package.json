@@ -19,7 +19,7 @@
     "request": "^2.88.0",
     "request-promise-native": "^1.0.5"
   },
-  "engines": {
-    "node": "0.10.x"
+  "scripts": {
+    "start": "./bin/hubot"
   }
 }
