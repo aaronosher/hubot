@@ -30,16 +30,16 @@
 
         <!-- Resrouce Redirects -->
         <script>
-            const redirects = {
-                resources: {
+            const redirects = [
+                {
                     regex: /\/resources$/,
                     url: "https://github.com/aaronosher/hubot/tree/example"
                 },
-                glitch: {
+                {
                     regex: /\/glitch$/,
                     url: "https://glitch.com/~hubot-workshop"
                 }
-            };
+            ];
 
             redirects.map(redirect => {
                 if (redirect.regex.test(window.location.pathname)) {
